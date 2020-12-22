@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天气插件</title>
+	<script src="jquery-min.js"></script>
+	<link rel="stylesheet" href="popup.css"/>
+</head>
+<body>
+<div class="container" id="container">
+	<div style="margin-bottom: 10px;text-align: center">梅江</div>
+	<div class="weather-middle">
+		<div><img style="width: 60px;height: 60px" id="nowImg" src="icon/100.png"></div>
+		<div class="weather-middle-info">
+			<p class="weather-middle-item">
+				<span id="temp">17℃</span>
+				<span id="text">晴</span>
+			</p>
+			<p class="weather-middle-item">
+				<span class="item-overflow" id="windDir">东风</span>
+				<span id="windSpeed">实况风速:20km/h</span>
+			</p>
+		</div>
+	</div>
+	<div class="weather-bottom" id="daily"></div>
+</div>
+</body>
+<script src="popup.js"></script>
+</html>

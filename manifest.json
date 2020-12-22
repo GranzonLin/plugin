@@ -1,0 +1,25 @@
+{
+    "name": "weather",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "天气",
+    "icons": {
+        "16": "wr.png",
+        "48": "wr.png",
+        "128": "wr.png"
+    },
+    "background":
+    {
+        "page": "popup.html",
+        "scripts": ["popup.js"]
+    },
+    "browser_action": {
+        "default_title": "和风天气",
+        "default_icon": {
+            "16": "wr.png",
+            "48": "wr.png",
+            "128": "wr.png"
+        },
+        "default_popup": "popup.html"
+    }
+}
